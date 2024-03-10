@@ -7,6 +7,13 @@ int main()
 {
     std::cout << "Hello World!\n";
     std::cout << "this is our second line\n";
+    
+    short int a;
+    std::cout<<sizeof(a);
+
+    //print max value of short int
+    std::cout << "\nMax value of short int: " << SHRT_MAX;
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
