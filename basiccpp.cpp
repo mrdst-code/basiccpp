@@ -14,6 +14,11 @@ int main()
     //print max value of short int
     std::cout << "\nMax value of short int: " << SHRT_MAX;
 
+    char b = 98;
+    std::cout << "\n"<<b;
+    //what is the b code in ansii table
+    std::cout << "\n" << (int)b;
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
