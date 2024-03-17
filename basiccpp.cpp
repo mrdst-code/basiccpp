@@ -24,6 +24,19 @@ int main()
     {
 		std::cout << i << " : " << (char)i << std::endl;
 	}   
+    std::cout << "--------------*---------------\n";
+    //simple comparison of two numbers that are entered by user
+    int x, y, max;
+    std::cout << "enter two numbers:";
+    std::cin >> x >> y;
+    //let's assume x is greater than y;
+    max = x;
+
+    if (y>max)
+       max = y;
+    
+    std::cout << "\nthe biggest number is: " << max;
+    std::cout << "--------------*---------------\n";
 
 }
 
