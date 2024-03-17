@@ -19,6 +19,12 @@ int main()
     //what is the b code in ansii table
     std::cout << "\n" << (int)b;
 
+    //let wirte a program to print the ansii table
+    for (int i = 0; i < 256; i++)
+    {
+		std::cout << i << " : " << (char)i << std::endl;
+	}   
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
