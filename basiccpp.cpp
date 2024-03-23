@@ -38,6 +38,23 @@ int main()
     std::cout << "\nthe biggest number is: " << max;
     std::cout << "--------------*---------------\n";
 
+    //imagine we want pick the biggest nuber that our user 
+    //first we agree with our user to enter -1 to stop entering numbers
+    //then we will print the biggest number
+    int number, biggest;
+    std::cout << "enter a numbers i will found the biggest one :\n";
+    std::cout << "remember you can stop entering numbers by entering -1\n";
+    std::cin >> number;
+    biggest = number;
+    while (number != -1)
+    {
+        std::cout << "enter a number:";
+        std::cin >> number;
+            if (number > biggest)
+                biggest = number;
+    }
+    std::cout << "the biggest number is:" << biggest;
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
