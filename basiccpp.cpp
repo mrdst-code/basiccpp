@@ -42,7 +42,7 @@ int main()
     //first we agree with our user to enter -1 to stop entering numbers
     //then we will print the biggest number
     int number, biggest;
-    std::cout << "enter a numbers i will found the biggest one :\n";
+    std::cout << "enter a numbers i will find the biggest one :\n";
     std::cout << "remember you can stop entering numbers by entering -1\n";
     std::cin >> number;
     biggest = number;
